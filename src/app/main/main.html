@@ -1,0 +1,28 @@
+<div class=" wrapper wrapper-content p-xl ">
+	<div class="container animated fadeInRight">
+	<div class="row">
+		<table class="table table-striped">
+		    <thead>
+		      <tr>
+		        <th>Firstname</th>
+		        <th>Location</th>
+		        <th>Mobile Number</th>
+		        <th>Designation</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr ng-repeat="u in main.users">
+		        <td>{{u.name}}</td>
+		        <td>{{u.location}}</td>
+		        <td>{{u.mobile_number}}</td>
+		        <td>{{u.designation}}</td>
+		      </tr>
+		      
+		    </tbody>
+		</table>
+		<button g-login type="button">Google Login</button>
+		<i class="fa fa-angle-right"></i>
+		<i class="fa fa-edit"></i>
+	</div>
+	</div>
+</div>
